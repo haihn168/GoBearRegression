@@ -12,6 +12,7 @@ public class Setup {
 
     @Before
     public void setWebDriver() throws Exception {
+        //TODO setup cross OS Platform path
         System.setProperty("webdriver.chrome.driver","drivers\\chromedriver.exe");
         String browser = System.getProperty("browser");
         if (browser == null) {

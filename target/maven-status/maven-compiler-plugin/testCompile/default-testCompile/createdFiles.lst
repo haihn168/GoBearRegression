@@ -1,2 +1,12 @@
-com\gobear\auto\Stepdefs.class
+com\gobear\auto\DriverUtils\Setup.class
+com\gobear\auto\TravelResultPageSteps.class
+com\gobear\auto\DriverUtils\WaitUtils.class
+com\gobear\auto\HomepageSteps.class
+com\gobear\auto\PageObjects\TravelResultPage.class
+com\gobear\auto\DriverUtils\TearDown.class
+com\gobear\auto\PageObjects\SortComponent.class
+com\gobear\auto\PageObjects\DetailComponent.class
+com\gobear\auto\PageObjects\BasePage.class
+com\gobear\auto\PageObjects\FilterComponent.class
 com\gobear\auto\RunCucumberTest.class
+com\gobear\auto\PageObjects\HomePage.class

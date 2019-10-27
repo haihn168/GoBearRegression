@@ -68,7 +68,7 @@ public class DetailComponent extends BasePage {
         String strDate = startDateField.getAttribute("value");
         SimpleDateFormat formatter2 = new SimpleDateFormat("dd-MM-yyyy");
         Date actualDate = formatter2.parse(strDate);
-        Assert.assertTrue(expectedDate.equals(actualDate));;
+        Assert.assertTrue(String.format("Date not Equals:\nExpected: %s\nActual: %s",inputDate,strDate),expectedDate.equals(actualDate));;
     }
 
     public void verifyEndDate(String year, String month, String date) throws ParseException {

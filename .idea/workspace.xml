@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="433d25e0-4f5e-4a16-a3a1-14d9aeda916a" name="Default Changelist" comment="" />
+    <list default="true" id="433d25e0-4f5e-4a16-a3a1-14d9aeda916a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gobear/auto/DriverUtils/Setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gobear/auto/DriverUtils/Setup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gobear/auto/HomepageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gobear/auto/HomepageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gobear/auto/PageObjects/DetailComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gobear/auto/PageObjects/DetailComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gobear/auto/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gobear/auto/RunCucumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/com/gobear/auto/TravelInsurance.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/com/gobear/auto/TravelInsurance.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gobear.auto.RunCucumberTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.gobear.auto.RunCucumberTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/GoBearRegression.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gobear/auto/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gobear/auto/DriverUtils/Setup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gobear/auto/DriverUtils/TearDown.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gobear/auto/DriverUtils/WaitUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gobear/auto/HomepageSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gobear/auto/PageObjects/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gobear/auto/PageObjects/DetailComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gobear/auto/PageObjects/FilterComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gobear/auto/PageObjects/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gobear/auto/PageObjects/SortComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gobear/auto/PageObjects/TravelResultPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gobear/auto/RunCucumberTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gobear/auto/TravelInsurance.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gobear/auto/TravelResultPageSteps.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +140,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

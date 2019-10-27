@@ -34,20 +34,20 @@ public class HomepageSteps {
         travelResultPage.isPageLoad();
     }
 
-    @Then("^I should see at least 3 cards displayed$")
-    public void i_should_see_at_least_3_cards() {
-        travelResultPage.verifyNumberOfResultCards(3);
+    @Then("^I should see at least \"([^\"]*)\" cards displayed$")
+    public void i_should_see_at_least_3_cards(int numsCard) {
+        travelResultPage.verifyNumberOfResultCards(numsCard);
     }
 
-    @Then("^I should be able to select Insurer$")
-    public void i_should_be_able_to_select_Insurer() {
+    @Then("^I should be able to select a \"([^\"]*)\" insurer$")
+    public void i_should_be_able_to_select_Insurer(String insurer) {
         filterComponent.clickSeeMoreBtn()
-                .selectInsurer("FPG Insurance");
+                .selectInsurer(insurer);
     }
 
-    @And("^I should be able to select Personal Accident value$")
-    public void i_should_be_able_to_select_personal_accident_value() {
-        filterComponent.moveSlider("Personal Accident");
+    @And("^I should be able to select \"([^\"]*)\" value$")
+    public void i_should_be_able_to_select_personal_accident_value(String personalAccidentValue) {
+        filterComponent.moveSlider(personalAccidentValue);
         //TODO Verify steps
     }
 
@@ -57,10 +57,10 @@ public class HomepageSteps {
                      .verifyPriceLowToHighIsSelected();
     }
 
-    @And("^I should be able to select Destination$")
-    public void i_should_be_able_to_select_destination() {
-        detailComponent.selectDestination("Africa")
-                        .verifyDestination("Africa");
+    @And("^I should be able to select \"([^\"]*)\" destination$")
+    public void i_should_be_able_to_select_destination(String destination) {
+        detailComponent.selectDestination(destination)
+                        .verifyDestination(destination);
     }
 
     @And("^I should be able to select Start date and End Date$")
